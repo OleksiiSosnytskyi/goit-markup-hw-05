@@ -735,6 +735,7 @@ footer {
   opacity: 0;
 }
 
-.projects-text:hover {
+.projects-item:hover .projects-text {
   opacity: 1;
+  transition: 250ms;
 }
