@@ -692,6 +692,10 @@ footer {
   margin-bottom: 0;
 }
 
+.projects-thump {
+  position: relative;
+}
+
 .projects-works {
   padding: 20px 24px;
 }
@@ -716,10 +720,21 @@ footer {
 
 .projects-text {
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
 
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  left: 0;
+  top: 0;
+
+  padding: 63px 24px;
+  opacity: 0;
+}
+
+.projects-text:hover {
+  opacity: 1;
 }
