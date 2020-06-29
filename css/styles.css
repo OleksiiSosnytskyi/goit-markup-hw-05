@@ -339,6 +339,10 @@ a {
   text-align: center;
 }
 
+.directions-item {
+  position: relative;
+}
+
 .directions-item > h3 {
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -350,6 +354,10 @@ a {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .directions {
